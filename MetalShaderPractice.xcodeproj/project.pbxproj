@@ -38,7 +38,13 @@
 		9313E6BC2BCB6D4A0035EA53 /* ColorShapeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorShapeMaker.swift; sourceTree = "<group>"; };
 		9313E6BF2BCB707B0035EA53 /* ColorShapeShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ColorShapeShader.metal; sourceTree = "<group>"; };
 		936F46182BD4DE9F00D4DD93 /* Sequence + Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence + Async.swift"; sourceTree = "<group>"; };
+		936F7A172BD40BFC00349862 /* SourceImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SourceImages.bundle; sourceTree = "<group>"; };
+		938C1C9C2BCD894A00954117 /* BlendImageShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BlendImageShader.metal; sourceTree = "<group>"; };
+		93CC82EA2BCC2B9800E6D2F5 /* ImageBlendingDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBlendingDemoView.swift; sourceTree = "<group>"; };
+		93CC82EC2BCCA1CE00E6D2F5 /* ImageBlender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBlender.swift; sourceTree = "<group>"; };
 		93CC82EE2BCCA23600E6D2F5 /* MTLTexture + UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MTLTexture + UIKit.swift"; sourceTree = "<group>"; };
+		93F0DE122BCEA2240070FBC1 /* DemoImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageProvider.swift; sourceTree = "<group>"; };
+		93F0DE142BCEA6C90070FBC1 /* BlendImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BlendImages.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,10 @@
 		9313E6B52BCABD740035EA53 /* Image blending */ = {
 			isa = PBXGroup;
 			children = (
+				93CC82EA2BCC2B9800E6D2F5 /* ImageBlendingDemoView.swift */,
+				93F0DE122BCEA2240070FBC1 /* DemoImageProvider.swift */,
+				938C1C9E2BCD8E9300954117 /* ImageBlender */,
+				93F0DE162BCEA6F80070FBC1 /* Resources */,
 			);
 			path = "Image blending";
 			sourceTree = "<group>";
@@ -156,6 +166,24 @@
 				9313E6BF2BCB707B0035EA53 /* ColorShapeShader.metal */,
 			);
 			path = ColorShapes;
+			sourceTree = "<group>";
+		};
+		938C1C9E2BCD8E9300954117 /* ImageBlender */ = {
+			isa = PBXGroup;
+			children = (
+				93CC82EC2BCCA1CE00E6D2F5 /* ImageBlender.swift */,
+				938C1C9C2BCD894A00954117 /* BlendImageShader.metal */,
+			);
+			path = ImageBlender;
+			sourceTree = "<group>";
+		};
+		93F0DE162BCEA6F80070FBC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				936F7A172BD40BFC00349862 /* SourceImages.bundle */,
+				93F0DE142BCEA6C90070FBC1 /* BlendImages.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F0DE152BCEA6C90070FBC1 /* BlendImages.bundle in Resources */,
+				936F7A182BD40BFC00349862 /* SourceImages.bundle in Resources */,
 				9313E6AC2BCAAD000035EA53 /* Preview Assets.xcassets in Resources */,
 				9313E6A92BCAAD000035EA53 /* Assets.xcassets in Resources */,
 			);
@@ -228,13 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93CC82ED2BCCA1CE00E6D2F5 /* ImageBlender.swift in Sources */,
 				936F46192BD4DE9F00D4DD93 /* Sequence + Async.swift in Sources */,
 				9313E6BD2BCB6D4A0035EA53 /* ColorShapeMaker.swift in Sources */,
 				93CC82EF2BCCA23600E6D2F5 /* MTLTexture + UIKit.swift in Sources */,
+				938C1C9D2BCD894A00954117 /* BlendImageShader.metal in Sources */,
 				9313E6C02BCB707B0035EA53 /* ColorShapeShader.metal in Sources */,
 				930000482BDDFDCE005E9B69 /* ViewModifiers.swift in Sources */,
 				9313E6A72BCAACFF0035EA53 /* ContentView.swift in Sources */,
 				9313E6A52BCAACFF0035EA53 /* MetalShaderPracticeApp.swift in Sources */,
+				93CC82EB2BCC2B9800E6D2F5 /* ImageBlendingDemoView.swift in Sources */,
+				93F0DE132BCEA2240070FBC1 /* DemoImageProvider.swift in Sources */,
 				9311DADA2BD377650091950D /* NSObject + Builder.swift in Sources */,
 				9313E6BB2BCB6D120035EA53 /* BasicDemoView.swift in Sources */,
 			);

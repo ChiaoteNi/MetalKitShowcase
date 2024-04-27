@@ -18,8 +18,9 @@ struct ContentView: View {
                     BasicDemoView()
                 }
                 Spacer()
+                // Image Blending
                 NavigationLink("Image blending") {
-
+                    ImageBlendingDemoView()
                 }
                 Spacer()
                 NavigationLink("Video editing") {
