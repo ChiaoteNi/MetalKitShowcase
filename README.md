@@ -53,14 +53,14 @@
 </tr>
 </table>
 
-### Part II: (4/23, not uploaded yet)
+### Part II: (4/23)
   - **Focus on Video Editing:**
-    - **Parallel Play of Multiple Videos:**
-      - Provides basic knowledge on how AVComposition works.
-      - Explains how to combine multiple videos by setting up the vertices and textures.
+    - **Parallel Playback of Multiple Videos:**
+      - Provides basic knowledge of how AVComposition works.
+      - Explains how to combine multiple videos by configuring vertices and textures.
     - **Watermark:**
-      - Describes how to blend a watermark onto your video.
-      - Additionally, covers how to render the watermark dynamically, rather than as just a static image.
+      - Describes how to overlay a watermark onto your video
+      - Additionally, covers how to render the watermark dynamically instead of as just a static image.
 
 <table>
 <tr>
@@ -97,7 +97,3 @@
 </td>
 </tr>
 </table>
-
-
-
-### Part III (5/21):

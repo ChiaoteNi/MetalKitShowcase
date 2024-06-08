@@ -24,6 +24,34 @@
 		93CC82EF2BCCA23600E6D2F5 /* MTLTexture + UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC82EE2BCCA23600E6D2F5 /* MTLTexture + UIKit.swift */; };
 		93F0DE132BCEA2240070FBC1 /* DemoImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F0DE122BCEA2240070FBC1 /* DemoImageProvider.swift */; };
 		93F0DE152BCEA6C90070FBC1 /* BlendImages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93F0DE142BCEA6C90070FBC1 /* BlendImages.bundle */; };
+		93F67A702BDE9CB700E6C656 /* VideoCompositionDemoOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A4B2BDE9CB700E6C656 /* VideoCompositionDemoOption.swift */; };
+		93F67A712BDE9CB700E6C656 /* VideoCompositionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A4C2BDE9CB700E6C656 /* VideoCompositionDemoView.swift */; };
+		93F67A722BDE9CB700E6C656 /* VideoCompositionDemoViewStatesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A4D2BDE9CB700E6C656 /* VideoCompositionDemoViewStatesStore.swift */; };
+		93F67A732BDE9CB700E6C656 /* ParallelPlayWithMetalVideoCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A502BDE9CB700E6C656 /* ParallelPlayWithMetalVideoCompositor.swift */; };
+		93F67A742BDE9CB700E6C656 /* ParallelPlayWithMetalCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A512BDE9CB700E6C656 /* ParallelPlayWithMetalCompositionInstruction.swift */; };
+		93F67A752BDE9CB700E6C656 /* ParallelPlayWithMetalDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A522BDE9CB700E6C656 /* ParallelPlayWithMetalDemo.swift */; };
+		93F67A762BDE9CB700E6C656 /* meeting_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A542BDE9CB700E6C656 /* meeting_3.mp4 */; };
+		93F67A772BDE9CB700E6C656 /* meeting_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A552BDE9CB700E6C656 /* meeting_2.mp4 */; };
+		93F67A782BDE9CB700E6C656 /* meeting_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A562BDE9CB700E6C656 /* meeting_1.mp4 */; };
+		93F67A792BDE9CB700E6C656 /* meeting_5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A572BDE9CB700E6C656 /* meeting_5.mp4 */; };
+		93F67A7A2BDE9CB700E6C656 /* meeting_4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A582BDE9CB700E6C656 /* meeting_4.mp4 */; };
+		93F67A7B2BDE9CB700E6C656 /* PassthroughShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A5A2BDE9CB700E6C656 /* PassthroughShader.metal */; };
+		93F67A7C2BDE9CB700E6C656 /* ParallelPlayMetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A5B2BDE9CB700E6C656 /* ParallelPlayMetalRenderer.swift */; };
+		93F67A7D2BDE9CB700E6C656 /* watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A5E2BDE9CB700E6C656 /* watermark.png */; };
+		93F67A7E2BDE9CB700E6C656 /* seal.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A5F2BDE9CB700E6C656 /* seal.MOV */; };
+		93F67A7F2BDE9CB700E6C656 /* dophine.mov in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A602BDE9CB700E6C656 /* dophine.mov */; };
+		93F67A802BDE9CB700E6C656 /* otter.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A612BDE9CB700E6C656 /* otter.MOV */; };
+		93F67A812BDE9CB700E6C656 /* Disney.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 93F67A622BDE9CB700E6C656 /* Disney.MOV */; };
+		93F67A822BDE9CB700E6C656 /* WatermarkDemoCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A632BDE9CB700E6C656 /* WatermarkDemoCompositionInstruction.swift */; };
+		93F67A832BDE9CB700E6C656 /* WatermarkDemoVideoCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A642BDE9CB700E6C656 /* WatermarkDemoVideoCompositor.swift */; };
+		93F67A842BDE9CB700E6C656 /* WatermarkDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A652BDE9CB700E6C656 /* WatermarkDemo.swift */; };
+		93F67A852BDE9CB700E6C656 /* WatermarkMetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A672BDE9CB700E6C656 /* WatermarkMetalRenderer.swift */; };
+		93F67A862BDE9CB700E6C656 /* WatermarkShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A682BDE9CB700E6C656 /* WatermarkShader.metal */; };
+		93F67A872BDE9CB700E6C656 /* VideoCompositingDemoItemMaking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A692BDE9CB700E6C656 /* VideoCompositingDemoItemMaking.swift */; };
+		93F67A882BDE9CB700E6C656 /* VideoCompositionDemoViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A6B2BDE9CB700E6C656 /* VideoCompositionDemoViewInteractor.swift */; };
+		93F67A892BDE9CB700E6C656 /* VideoCompositingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A6D2BDE9CB700E6C656 /* VideoCompositingError.swift */; };
+		93F67A8A2BDE9CB700E6C656 /* AVAsset + constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A6E2BDE9CB700E6C656 /* AVAsset + constructor.swift */; };
+		93F67A8B2BDE9CB700E6C656 /* TrackContextProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F67A6F2BDE9CB700E6C656 /* TrackContextProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +73,34 @@
 		93CC82EE2BCCA23600E6D2F5 /* MTLTexture + UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MTLTexture + UIKit.swift"; sourceTree = "<group>"; };
 		93F0DE122BCEA2240070FBC1 /* DemoImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageProvider.swift; sourceTree = "<group>"; };
 		93F0DE142BCEA6C90070FBC1 /* BlendImages.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BlendImages.bundle; sourceTree = "<group>"; };
+		93F67A4B2BDE9CB700E6C656 /* VideoCompositionDemoOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCompositionDemoOption.swift; sourceTree = "<group>"; };
+		93F67A4C2BDE9CB700E6C656 /* VideoCompositionDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCompositionDemoView.swift; sourceTree = "<group>"; };
+		93F67A4D2BDE9CB700E6C656 /* VideoCompositionDemoViewStatesStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCompositionDemoViewStatesStore.swift; sourceTree = "<group>"; };
+		93F67A502BDE9CB700E6C656 /* ParallelPlayWithMetalVideoCompositor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallelPlayWithMetalVideoCompositor.swift; sourceTree = "<group>"; };
+		93F67A512BDE9CB700E6C656 /* ParallelPlayWithMetalCompositionInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallelPlayWithMetalCompositionInstruction.swift; sourceTree = "<group>"; };
+		93F67A522BDE9CB700E6C656 /* ParallelPlayWithMetalDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallelPlayWithMetalDemo.swift; sourceTree = "<group>"; };
+		93F67A542BDE9CB700E6C656 /* meeting_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meeting_3.mp4; sourceTree = "<group>"; };
+		93F67A552BDE9CB700E6C656 /* meeting_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meeting_2.mp4; sourceTree = "<group>"; };
+		93F67A562BDE9CB700E6C656 /* meeting_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meeting_1.mp4; sourceTree = "<group>"; };
+		93F67A572BDE9CB700E6C656 /* meeting_5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meeting_5.mp4; sourceTree = "<group>"; };
+		93F67A582BDE9CB700E6C656 /* meeting_4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = meeting_4.mp4; sourceTree = "<group>"; };
+		93F67A5A2BDE9CB700E6C656 /* PassthroughShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = PassthroughShader.metal; sourceTree = "<group>"; };
+		93F67A5B2BDE9CB700E6C656 /* ParallelPlayMetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallelPlayMetalRenderer.swift; sourceTree = "<group>"; };
+		93F67A5E2BDE9CB700E6C656 /* watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watermark.png; sourceTree = "<group>"; };
+		93F67A5F2BDE9CB700E6C656 /* seal.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = seal.MOV; sourceTree = "<group>"; };
+		93F67A602BDE9CB700E6C656 /* dophine.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = dophine.mov; sourceTree = "<group>"; };
+		93F67A612BDE9CB700E6C656 /* otter.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = otter.MOV; sourceTree = "<group>"; };
+		93F67A622BDE9CB700E6C656 /* Disney.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Disney.MOV; sourceTree = "<group>"; };
+		93F67A632BDE9CB700E6C656 /* WatermarkDemoCompositionInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkDemoCompositionInstruction.swift; sourceTree = "<group>"; };
+		93F67A642BDE9CB700E6C656 /* WatermarkDemoVideoCompositor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkDemoVideoCompositor.swift; sourceTree = "<group>"; };
+		93F67A652BDE9CB700E6C656 /* WatermarkDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkDemo.swift; sourceTree = "<group>"; };
+		93F67A672BDE9CB700E6C656 /* WatermarkMetalRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkMetalRenderer.swift; sourceTree = "<group>"; };
+		93F67A682BDE9CB700E6C656 /* WatermarkShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = WatermarkShader.metal; sourceTree = "<group>"; };
+		93F67A692BDE9CB700E6C656 /* VideoCompositingDemoItemMaking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCompositingDemoItemMaking.swift; sourceTree = "<group>"; };
+		93F67A6B2BDE9CB700E6C656 /* VideoCompositionDemoViewInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCompositionDemoViewInteractor.swift; sourceTree = "<group>"; };
+		93F67A6D2BDE9CB700E6C656 /* VideoCompositingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCompositingError.swift; sourceTree = "<group>"; };
+		93F67A6E2BDE9CB700E6C656 /* AVAsset + constructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVAsset + constructor.swift"; sourceTree = "<group>"; };
+		93F67A6F2BDE9CB700E6C656 /* TrackContextProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackContextProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +204,13 @@
 		9313E6B62BCABD830035EA53 /* Video Editing */ = {
 			isa = PBXGroup;
 			children = (
+				93F67A4E2BDE9CB700E6C656 /* Demos */,
+				93F67A6C2BDE9CB700E6C656 /* DemoUitilies */,
+				93F67A6A2BDE9CB700E6C656 /* Resources */,
+				93F67A4B2BDE9CB700E6C656 /* VideoCompositionDemoOption.swift */,
+				93F67A4C2BDE9CB700E6C656 /* VideoCompositionDemoView.swift */,
+				93F67A6B2BDE9CB700E6C656 /* VideoCompositionDemoViewInteractor.swift */,
+				93F67A4D2BDE9CB700E6C656 /* VideoCompositionDemoViewStatesStore.swift */,
 			);
 			path = "Video Editing";
 			sourceTree = "<group>";
@@ -184,6 +247,99 @@
 				93F0DE142BCEA6C90070FBC1 /* BlendImages.bundle */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		93F67A4E2BDE9CB700E6C656 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A4F2BDE9CB700E6C656 /* ParallelPlay */,
+				93F67A5C2BDE9CB700E6C656 /* Watermark */,
+				93F67A692BDE9CB700E6C656 /* VideoCompositingDemoItemMaking.swift */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		93F67A4F2BDE9CB700E6C656 /* ParallelPlay */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A502BDE9CB700E6C656 /* ParallelPlayWithMetalVideoCompositor.swift */,
+				93F67A512BDE9CB700E6C656 /* ParallelPlayWithMetalCompositionInstruction.swift */,
+				93F67A522BDE9CB700E6C656 /* ParallelPlayWithMetalDemo.swift */,
+				93F67A532BDE9CB700E6C656 /* Resources */,
+				93F67A592BDE9CB700E6C656 /* Metal Renderer */,
+			);
+			path = ParallelPlay;
+			sourceTree = "<group>";
+		};
+		93F67A532BDE9CB700E6C656 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A542BDE9CB700E6C656 /* meeting_3.mp4 */,
+				93F67A552BDE9CB700E6C656 /* meeting_2.mp4 */,
+				93F67A562BDE9CB700E6C656 /* meeting_1.mp4 */,
+				93F67A572BDE9CB700E6C656 /* meeting_5.mp4 */,
+				93F67A582BDE9CB700E6C656 /* meeting_4.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93F67A592BDE9CB700E6C656 /* Metal Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A5A2BDE9CB700E6C656 /* PassthroughShader.metal */,
+				93F67A5B2BDE9CB700E6C656 /* ParallelPlayMetalRenderer.swift */,
+			);
+			path = "Metal Renderer";
+			sourceTree = "<group>";
+		};
+		93F67A5C2BDE9CB700E6C656 /* Watermark */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A5D2BDE9CB700E6C656 /* Resources */,
+				93F67A632BDE9CB700E6C656 /* WatermarkDemoCompositionInstruction.swift */,
+				93F67A642BDE9CB700E6C656 /* WatermarkDemoVideoCompositor.swift */,
+				93F67A652BDE9CB700E6C656 /* WatermarkDemo.swift */,
+				93F67A662BDE9CB700E6C656 /* Metal Renderer */,
+			);
+			path = Watermark;
+			sourceTree = "<group>";
+		};
+		93F67A5D2BDE9CB700E6C656 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A5E2BDE9CB700E6C656 /* watermark.png */,
+				93F67A5F2BDE9CB700E6C656 /* seal.MOV */,
+				93F67A602BDE9CB700E6C656 /* dophine.mov */,
+				93F67A612BDE9CB700E6C656 /* otter.MOV */,
+				93F67A622BDE9CB700E6C656 /* Disney.MOV */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93F67A662BDE9CB700E6C656 /* Metal Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A672BDE9CB700E6C656 /* WatermarkMetalRenderer.swift */,
+				93F67A682BDE9CB700E6C656 /* WatermarkShader.metal */,
+			);
+			path = "Metal Renderer";
+			sourceTree = "<group>";
+		};
+		93F67A6A2BDE9CB700E6C656 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		93F67A6C2BDE9CB700E6C656 /* DemoUitilies */ = {
+			isa = PBXGroup;
+			children = (
+				93F67A6D2BDE9CB700E6C656 /* VideoCompositingError.swift */,
+				93F67A6E2BDE9CB700E6C656 /* AVAsset + constructor.swift */,
+				93F67A6F2BDE9CB700E6C656 /* TrackContextProtocol.swift */,
+			);
+			path = DemoUitilies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,10 +400,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F67A772BDE9CB700E6C656 /* meeting_2.mp4 in Resources */,
+				93F67A792BDE9CB700E6C656 /* meeting_5.mp4 in Resources */,
+				93F67A802BDE9CB700E6C656 /* otter.MOV in Resources */,
 				93F0DE152BCEA6C90070FBC1 /* BlendImages.bundle in Resources */,
+				93F67A7A2BDE9CB700E6C656 /* meeting_4.mp4 in Resources */,
+				93F67A7E2BDE9CB700E6C656 /* seal.MOV in Resources */,
 				936F7A182BD40BFC00349862 /* SourceImages.bundle in Resources */,
+				93F67A7F2BDE9CB700E6C656 /* dophine.mov in Resources */,
 				9313E6AC2BCAAD000035EA53 /* Preview Assets.xcassets in Resources */,
 				9313E6A92BCAAD000035EA53 /* Assets.xcassets in Resources */,
+				93F67A782BDE9CB700E6C656 /* meeting_1.mp4 in Resources */,
+				93F67A7D2BDE9CB700E6C656 /* watermark.png in Resources */,
+				93F67A812BDE9CB700E6C656 /* Disney.MOV in Resources */,
+				93F67A762BDE9CB700E6C656 /* meeting_3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,19 +424,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93F67A742BDE9CB700E6C656 /* ParallelPlayWithMetalCompositionInstruction.swift in Sources */,
+				93F67A842BDE9CB700E6C656 /* WatermarkDemo.swift in Sources */,
+				93F67A8B2BDE9CB700E6C656 /* TrackContextProtocol.swift in Sources */,
+				93F67A722BDE9CB700E6C656 /* VideoCompositionDemoViewStatesStore.swift in Sources */,
+				93F67A862BDE9CB700E6C656 /* WatermarkShader.metal in Sources */,
 				93CC82ED2BCCA1CE00E6D2F5 /* ImageBlender.swift in Sources */,
+				93F67A822BDE9CB700E6C656 /* WatermarkDemoCompositionInstruction.swift in Sources */,
 				936F46192BD4DE9F00D4DD93 /* Sequence + Async.swift in Sources */,
 				9313E6BD2BCB6D4A0035EA53 /* ColorShapeMaker.swift in Sources */,
 				93CC82EF2BCCA23600E6D2F5 /* MTLTexture + UIKit.swift in Sources */,
+				93F67A882BDE9CB700E6C656 /* VideoCompositionDemoViewInteractor.swift in Sources */,
+				93F67A732BDE9CB700E6C656 /* ParallelPlayWithMetalVideoCompositor.swift in Sources */,
+				93F67A7C2BDE9CB700E6C656 /* ParallelPlayMetalRenderer.swift in Sources */,
+				93F67A712BDE9CB700E6C656 /* VideoCompositionDemoView.swift in Sources */,
+				93F67A702BDE9CB700E6C656 /* VideoCompositionDemoOption.swift in Sources */,
 				938C1C9D2BCD894A00954117 /* BlendImageShader.metal in Sources */,
+				93F67A832BDE9CB700E6C656 /* WatermarkDemoVideoCompositor.swift in Sources */,
 				9313E6C02BCB707B0035EA53 /* ColorShapeShader.metal in Sources */,
 				930000482BDDFDCE005E9B69 /* ViewModifiers.swift in Sources */,
 				9313E6A72BCAACFF0035EA53 /* ContentView.swift in Sources */,
 				9313E6A52BCAACFF0035EA53 /* MetalShaderPracticeApp.swift in Sources */,
 				93CC82EB2BCC2B9800E6D2F5 /* ImageBlendingDemoView.swift in Sources */,
+				93F67A752BDE9CB700E6C656 /* ParallelPlayWithMetalDemo.swift in Sources */,
+				93F67A8A2BDE9CB700E6C656 /* AVAsset + constructor.swift in Sources */,
+				93F67A872BDE9CB700E6C656 /* VideoCompositingDemoItemMaking.swift in Sources */,
 				93F0DE132BCEA2240070FBC1 /* DemoImageProvider.swift in Sources */,
+				93F67A892BDE9CB700E6C656 /* VideoCompositingError.swift in Sources */,
 				9311DADA2BD377650091950D /* NSObject + Builder.swift in Sources */,
+				93F67A852BDE9CB700E6C656 /* WatermarkMetalRenderer.swift in Sources */,
 				9313E6BB2BCB6D120035EA53 /* BasicDemoView.swift in Sources */,
+				93F67A7B2BDE9CB700E6C656 /* PassthroughShader.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

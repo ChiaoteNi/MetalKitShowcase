@@ -23,13 +23,18 @@ struct ContentView: View {
                     ImageBlendingDemoView()
                 }
                 Spacer()
-                NavigationLink("Video editing") {
 
+                // MARK: Part II
+                // Video Editing
+                NavigationLink("Video editing") {
+                    VideoCompositionDemoView()
                 }
                 Spacer()
-                NavigationLink("SwiftUI") {
-
-                }
+                // MARK: Part IV
+//                Spacer()
+//                NavigationLink("SwiftUI") {
+//
+//                }
             }
             .padding(50)
         }
